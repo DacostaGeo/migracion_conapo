@@ -45,7 +45,7 @@ b<-c(pca[["weights"]]);b
 pca[["values"]] / sum(pca[["values"]])*100
 
 ## Indice de intensidad migratoria
-## Estimaci?n con variables estandarizadas
+## Estimación con variables estandarizadas
 IMM<-IMM%>% mutate(iim=scale%*%b)
 
 ## Explorar resultados
